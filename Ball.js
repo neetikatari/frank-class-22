@@ -26,7 +26,7 @@ class Ball{
         translate(pos.x,pos.y);
         rotate(angle);   
         ellipseMode(CENTER);
-        ellipse(0,0,this.radius,this.radius)
+        ellipse(0,0,this.radius*2,this.radius*2)
     
         //used to bring back to older setings
         pop ();
