@@ -22,10 +22,10 @@ class Box{
         //add new settings
         push();
     
-        //change the x and y position according to 
-        //engine properties like frinction restitution
+        //translate:change the x and y position according to body
+        //rotate:engine properties like frinction restitution
         translate(pos.x,pos.y);
-        rotate(angle);
+        rotate(angle);   
         rectMode(CENTER);
         rect(0,0,this.width,this.height)
     
