@@ -1,5 +1,4 @@
-
-class Box{
+class Bird{
     constructor(x,y,width,height){
     
         var options={
@@ -26,8 +25,8 @@ class Box{
         //translate:change the x and y position according to body
         //rotate:engine properties like frinction restitution
         translate(pos.x,pos.y);
-        rotate(angle); 
-        fill("yellow")  
+        rotate(angle);   
+        fill("red")
         rectMode(CENTER);
         rect(0,0,this.width,this.height)
     
@@ -36,12 +35,4 @@ class Box{
     }
 
 };
-
-
-
-
-
-
-
-
 

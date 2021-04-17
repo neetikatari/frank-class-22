@@ -1,5 +1,4 @@
-
-class Box{
+class Pig{
     constructor(x,y,width,height){
     
         var options={
@@ -27,7 +26,7 @@ class Box{
         //rotate:engine properties like frinction restitution
         translate(pos.x,pos.y);
         rotate(angle); 
-        fill("yellow")  
+        fill ("green")  
         rectMode(CENTER);
         rect(0,0,this.width,this.height)
     
@@ -36,12 +35,4 @@ class Box{
     }
 
 };
-
-
-
-
-
-
-
-
 

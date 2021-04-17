@@ -7,7 +7,7 @@ var myengine,myworld;
 var box1,box2
 
 function setup(){
-  createCanvas(400,400)
+  createCanvas(800,400)
   myengine = Engine.create();
   myworld = myengine.world
 
@@ -16,10 +16,10 @@ function setup(){
   //ground=Bodies.rectangle(200,380,400,10,ground_options)
   //World.add(myworld,ground)
   
-  box1=new Box(200,300,50,50);
+  box1=new Box(100,300,50,50);
   box2=new Box(220,100,50,100);
   box3= new Box(60,80,41,15);
-  ground= new ground(200,380,400,10)
+  ground= new Ground(width/20,height,width,20)
 
 
   //for static option
